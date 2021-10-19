@@ -185,4 +185,37 @@
             }
         }
         
-        @media(min-width:1024px) {}
+        @media(min-width:1024px) {
+            .first img {
+                margin-left: 85px;
+            }
+            .type {
+                margin-top: 50px;
+                margin-left: 55px;
+                width: 40%;
+                display: inline-block;
+            }
+            .second img {
+                margin-left: 85px;
+            }
+            .something {
+                margin-top: 50px;
+                margin-left: 55px;
+                width: 40%;
+                display: inline-block;
+            }
+            .second h2 {
+                margin-bottom: 70px;
+                margin-top: 100px;
+            }
+            .second img {
+                margin-top: 70px;
+                width: 40%;
+                height: 400px;
+                margin-left: 70px;
+                display: inline-block;
+            }
+            .back {
+                padding-left: 700px;
+            }
+        }
