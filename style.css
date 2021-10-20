@@ -27,6 +27,7 @@
             display: inline-block;
             padding-top: 20px;
             padding-bottom: 20px;
+            padding-left: 3px;
             text-decoration: underline;
         }
         
@@ -48,8 +49,17 @@
         }
         
         aside h3 {
+            text-align: left;
+            padding-left: 10px;
+            padding-top: 20px;
+            color: white;
+            font-family: 'Festive', cursive;
+        }
+        
+        aside h2 {
             text-align: center;
-            padding-top: 50px;
+            padding-top: 20px;
+            height: 200px;
             color: white;
             font-family: 'Festive', cursive;
         }
@@ -166,7 +176,7 @@
         }
         
         .back {
-            padding-left: 150px;
+            padding-left: 120px;
             padding-bottom: 30px;
         }
         
@@ -183,9 +193,37 @@
             .back {
                 padding-left: 350px;
             }
+            aside h2 {
+                margin-bottom: 50px;
+            }
+            aside h3 {
+                padding-left: 30px;
+            }
+            aside p {
+                margin: auto;
+                padding-left: 150px;
+                padding-right: 150px;
+            }
+            .space {
+                margin-top: 50px;
+            }
         }
         
         @media(min-width:1024px) {
+            header li {
+                padding-left: 90px;
+                padding-right: 40px;
+            }
+            aside h3 {
+                padding-left: 200px;
+            }
+            aside p {
+                padding-left: 400px;
+                padding-right: 300px;
+            }
+            .space {
+                margin-top: 150px;
+            }
             .first img {
                 margin-left: 85px;
             }
@@ -211,11 +249,12 @@
             .second img {
                 margin-top: 70px;
                 width: 40%;
-                height: 400px;
+                height: 20%;
+                height: 300px;
                 margin-left: 70px;
                 display: inline-block;
             }
             .back {
-                padding-left: 700px;
+                padding-left: 500px;
             }
         }
