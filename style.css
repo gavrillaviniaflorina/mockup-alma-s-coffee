@@ -181,6 +181,10 @@
         }
         
         @media(min-width:724px) {
+            aside {
+                width: 80%;
+                background-position: center;
+            }
             header li {
                 padding-left: 70px;
             }
@@ -210,6 +214,10 @@
         }
         
         @media(min-width:1024px) {
+            aside {
+                width: 70%;
+                background-position: center;
+            }
             header li {
                 padding-left: 90px;
                 padding-right: 40px;
